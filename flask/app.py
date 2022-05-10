@@ -18,9 +18,10 @@ from sklearn.metrics import roc_curve, auc
 app = Flask(__name__)
 
 df_train = pd.read_csv(
-    "C:/Users/hugol/OneDrive/Bureau/2021-2022/python/exo_csv/exoTrain.csv")
+    'exo_csv/exoTrain.csv', low_memory=False)
 df_test = pd.read_csv(
-    "C:/Users/hugol/OneDrive/Bureau/2021-2022/python/exo_csv/exoTest.csv")
+    'exo_csv/exoTest.csv', low_memory=False)
+
 train_exo_y = df_train[df_train['LABEL'] > 1]
 train_exo_n = df_train[df_train['LABEL'] < 2]
 train_t_n = train_exo_n.iloc[:, 1:].T
