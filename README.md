@@ -22,5 +22,5 @@ Pour l'exploitation et le travail sur nos données, nous avons utilisé le langa
 
 ## Déploiement du projet en local
 
-Pour déployer le projet en local, il faut installer les librairies nécessaires, cloner le projet en local et lancer le fichier "app.py"
+Pour déployer le projet en local, il est nécéssaire de télécharger les datasets ici : https://www.kaggle.com/datasets/keplersmachines/kepler-labelled-time-series-data?resource=download et il faut installer les librairies nécessaires, cloner le projet en local et lancer le fichier "app.py".
 
